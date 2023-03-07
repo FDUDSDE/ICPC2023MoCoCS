@@ -1,5 +1,5 @@
 ### Dataset
-The CodeSearchNet dataset we use comes from the settings of GraphCodeBERT. 
+The CodeSearchNet dataset we use comes from the settings of [GraphCodeBERT](https://github.com/microsoft/CodeBERT/tree/master/GraphCodeBERT/codesearch). 
 You can download and preprocess data using the following command.
 ```shell
 unzip dataset.zip
@@ -29,4 +29,14 @@ We also provide a shell for evaluating the fine-tuned model on the test set.
 Noted that the programming language and initial model need to be consistent with the fine-tuning script.
 ```shell
 sh test.sh
+```
+### Cite
+```shell
+@inproceedings{shi2022mococs,
+  title={Improving Code Search with Multi-Modal Momentum Contrastive Learning},
+  author={Shi, Zejian and Xiong, Yun and Zhang, Yao and Jiang, Zhijie and Zhao, Jinjing and Wang, Lei and Li, Shanshan},
+  booktitle={Proceedings of the 31st IEEE/ACM International Conference on Program Comprehension},
+  year={2023}
+  organization={IEEE/ACM}
+}
 ```
