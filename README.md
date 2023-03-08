@@ -1,6 +1,6 @@
 ### Dataset
 The CodeSearchNet dataset we use comes from the settings of [GraphCodeBERT](https://github.com/microsoft/CodeBERT/tree/master/GraphCodeBERT/codesearch). 
-You can download and preprocess data using the following command.
+You can download and preprocess data using the following command. Note that we also the [GraphCodeBERT](https://github.com/microsoft/CodeBERT/tree/master/GraphCodeBERT/codesearch) to convert code into AST and DFG.
 ```shell
 unzip dataset.zip
 cd dataset
@@ -40,3 +40,4 @@ sh test.sh
   organization={IEEE/ACM}
 }
 ```
+
