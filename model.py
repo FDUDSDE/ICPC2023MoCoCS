@@ -153,8 +153,8 @@ class Model(nn.Module):
 
             self._dequeue_and_enqueue_code(code_vec_m)
             self._dequeue_and_enqueue_nl(nl_vec_m)
-            self._dequeue_and_enqueue_nl(ast_vec_m)
-            self._dequeue_and_enqueue_nl(dfg_vec_m)
+            self._dequeue_and_enqueue_ast(ast_vec_m)
+            self._dequeue_and_enqueue_dfg(dfg_vec_m)
 
             return loss, code_vec, nl_vec
 
