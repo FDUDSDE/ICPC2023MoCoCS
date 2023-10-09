@@ -32,7 +32,7 @@ sh test.sh
 ```
 ### Cite
 ```shell
-@inproceedings{shi2022mococs,
+@inproceedings{shi2023mococs,
   title={Improving Code Search with Multi-Modal Momentum Contrastive Learning},
   author={Shi, Zejian and Xiong, Yun and Zhang, Yao and Jiang, Zhijie and Zhao, Jinjing and Wang, Lei and Li, Shanshan},
   booktitle={Proceedings of the 31st IEEE/ACM International Conference on Program Comprehension},
